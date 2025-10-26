@@ -1,0 +1,58 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+}
+
+.card {
+    border: 1px solid #444;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#canvas-container {
+    border: 1px solid #444;
+    margin-top: 20px;
+}
+
+a {
+    color: #bb86fc;
+}
+
+a:hover {
+    color: #3700b3;
+}
+
+.btn-primary {
+    background-color: #bb86fc;
+    border-color: #bb86fc;
+}
+
+.btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+}
+
+.form-control, .form-select {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #444;
+    color: #fff;
+    border-color: #bb86fc;
+    box-shadow: 0 0 0 0.25rem rgba(187, 134, 252, 0.25);
+}
